@@ -1,0 +1,80 @@
+body {
+    /* background-color: rgb(0, 0, 63); */
+    /* for sidebar */
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Navbar starts */
+#navbar {
+    padding: 0;
+    margin: 0;
+}
+
+#container-fluid {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.navbar-collapse {
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+#navbar-nav {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#navbar-brand {
+    margin-left: 0.7rem;
+    color: black;
+}
+
+.nav-link {
+    margin: 0;
+    padding: 0.7rem 0rem 0.7rem 0.5rem;
+    height: 100%;
+    /* To align text veritically as well as horizontally center */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* color: darkblue; */
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+    width: 100%;
+}
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+/* Navbar ends */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 45%;
+    padding: 0.5rem;
+    padding-left: 2rem;
+}
